@@ -2,9 +2,7 @@
 
 Backpropagation is usually the hardest (most mathematical) part in deep learning. It is the algorithm widely used for training feedforward neural networks. 
 
-**Data Visualisation(Data used is Planar_dataset):**
-
-#### Dataset
+### Dataset
 Let’s get the dataset we will work on. The following code will load a “flower” 2-class dataset into variables X and Y.
 
 ```

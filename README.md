@@ -2,9 +2,9 @@
 
 Backpropagation is usually the hardest (most mathematical) part in deep learning. It is the algorithm widely used for training feedforward neural networks. 
 
-Data Visualisation(Data used is Planar_dataset):
+**Data Visualisation(Data used is Planar_dataset):**
 
-Dataset
+#### Dataset
 Let’s get the dataset we will work on. The following code will load a “flower” 2-class dataset into variables X and Y.
 
 ```
@@ -12,17 +12,16 @@ X, Y = load_planar_dataset()
 ```
 You can visualize the dataset with the help of matplotlib. The data will be like a “flower” with red and blue petals.
 
-We need to build a model to fit this data.
+**We need to build a model to fit this data.**
 
 First we need to make sense of the data which we have. We need to make use of Numpy
 
 We have,
 
-a numpy-array (matrix) X that contains your features (x1, x2)
-a numpy-array (vector) Y that contains your labels (red:0, blue:1)
+**a numpy-array (matrix) X that contains your features (x1, x2)**
+**a numpy-array (vector) Y that contains your labels (red:0, blue:1)**,
+
 We need to make use of “Shape of the array”.
-
-
 
 <img width="487" alt="Screenshot 2023-01-07 at 9 58 42 PM" src="https://user-images.githubusercontent.com/118846871/211160852-fdddf920-ced6-42a4-af43-3c7409ecf17d.png">
 
